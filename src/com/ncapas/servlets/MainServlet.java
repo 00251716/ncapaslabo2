@@ -48,18 +48,6 @@ public class MainServlet extends HttpServlet {
 		
 		PrintWriter out = response.getWriter();
 		
-		//Testing
-		System.out.println("Nombre: " + username);
-		System.out.println("Length expected: " + username.length());
-		System.out.println("Length received: " + input_username.length());
-		System.out.println("Nombre: " + password);
-		System.out.println("Length expected: " + password.length());
-		System.out.println("Length received: " + input_password.length());
-
-		System.out.println(input_username.equals(username));
-		System.out.println(input_password.equals(password));
-		// Testing
-		
 		if(input_username.equals(username) && input_password.equals(password)) {
 			out.println("<html>");
 			out.println("<body>");
