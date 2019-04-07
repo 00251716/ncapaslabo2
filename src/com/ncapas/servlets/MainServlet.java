@@ -58,6 +58,7 @@ public class MainServlet extends HttpServlet {
 
 		System.out.println(input_username.equals(username));
 		System.out.println(input_password.equals(password));
+		// Testing
 		
 		if(input_username.equals(username) && input_password.equals(password)) {
 			out.println("<html>");
